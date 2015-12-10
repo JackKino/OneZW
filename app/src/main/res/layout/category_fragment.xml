@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="全部商品分类"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:background="#c1c0c2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+    <Button
+        android:id="@+id/cate_dress"
+        android:layout_width="match_parent"
+        android:layout_height="140dp "
+        android:background="@mipmap/cate_dress"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时尚女装"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/cate_manswear"
+                android:layout_width="match_parent"
+                android:layout_height="140dp "
+                android:background="@mipmap/cate_manswear"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="潮流男装"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/cate_mothernal"
+                android:layout_width="match_parent"
+                android:layout_height="140dp "
+                android:background="@mipmap/cate_moternal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="母婴儿童"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/cate_shoesbag"
+                android:layout_width="match_parent"
+                android:layout_height="140dp "
+                android:background="@mipmap/cate_shoesbag"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鞋包配饰"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/cate_home"
+                android:layout_width="match_parent"
+                android:layout_height="140dp "
+                android:background="@mipmap/cate_home"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="家居生活"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/cate_foods"
+                android:layout_width="match_parent"
+                android:layout_height="140dp "
+                android:background="@mipmap/cate_foods"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="美食特产"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

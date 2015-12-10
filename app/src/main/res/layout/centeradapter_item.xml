@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/center_productimage"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_launcher" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/center_productname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20sp"
+                android:text="聚拢收副乳调整型文胸"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/center_productprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/center_productname"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="5000优币"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/center_limitnum"
+                android:layout_width="50dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/center_productname"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/center_productprice"
+                android:background="@drawable/center_quantum"
+                android:gravity="center"
+                android:text="限量1件"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/center_priceRMB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/center_productprice"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:alpha="0.5"
+                android:gravity="center"
+                android:text="价格99.00"
+                android:textSize="10sp"
+
+                />
+
+            <Button
+                android:id="@+id/center_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/center_priceRMB"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_shape1"
+                android:text="16:00开抢"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/center_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:text="（详情请点击图片进店了解）" />
+</LinearLayout>

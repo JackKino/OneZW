@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.onezw.category.CateActivity"
+    android:orientation="vertical">
+
+<com.example.administrator.onezw.view.Topbar
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/topbar" />
+<com.handmark.pulltorefresh.library.PullToRefreshGridView
+    android:id="@+id/cate_gridlview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:numColumns="2"
+    />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OneZW</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cate">CateActivity</string>
+    <string name="title_activity_goods_detail">GoodsDetail</string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="title_activity_my_information">MyInformation</string>
+    <string name="title_activity_login_activityy">LoginActivityy</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+</resources>

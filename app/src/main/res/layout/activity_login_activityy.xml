@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.onezw.MY.LoginActivityy"
+    android:background="#d9d9d9">
+<com.example.administrator.onezw.view.Topbar
+    android:layout_width="match_parent"
+    android:layout_height="50dp"/>
+<EditText
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:drawableLeft="@mipmap/iconfont_touxiang"
+    android:hint="用户名/手机号/邮箱"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#ffffff"
+    android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@mipmap/iconfont_suo"
+        android:hint="请输入密码"
+        android:password="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+       />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#ff5d2d"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="登录"
+        android:textSize="20sp"
+
+        />
+
+</LinearLayout>

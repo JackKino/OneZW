@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#230707"
+    android:orientation="horizontal">
+    <RadioGroup
+        android:id="@+id/controller_radiogroup"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/controller_radiobutton_home"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/home_seletor"
+            android:button="@null"
+            android:text="首页"
+            android:checked="true"
+            android:textColor="@drawable/controller_text"
+
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/controller_radiobutton_category"
+            android:layout_width="0dp"
+            android:text="类目"
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="@drawable/controller_text"
+            android:drawableTop="@drawable/category_seletor"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/controller_radiobutton_postman"
+            android:layout_width="0dp"
+            android:text="9.9包邮"
+            android:drawableTop="@drawable/postman_seletor"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@drawable/controller_text"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/controller_radiobutton_activitycenter"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@drawable/controller_text"
+            android:drawableTop="@drawable/activitycenter_seletor"
+            android:button="@null"
+            android:text="活动中心"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/controller_radiobutton_me"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@drawable/controller_text"
+            android:drawableTop="@drawable/my_seletor"
+            android:button="@null"
+            android:text="我的"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+</LinearLayout>
